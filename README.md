@@ -2,7 +2,7 @@
 
 Native ON Account sign-in, registration, recovery, linked profiles and session management for legacy Android. Store Lite uses a signature-protected account bridge; credentials are not exposed to third-party applications.
 
-First alpha: **0.1**, version code **1**. Android **2.2 / API 8** or later. Intended for legacy devices; use the regular ON editions on current Android.
+Current alpha: **0.2**, version code **2**. Android **2.2 / API 8** or later. Intended for legacy devices; use the regular ON editions on current Android.
 
 ## Design and compatibility
 
