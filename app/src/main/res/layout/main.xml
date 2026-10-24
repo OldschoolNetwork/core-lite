@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"><LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+ <LinearLayout android:layout_width="fill_parent" android:layout_height="68dp" android:background="@drawable/lite_header" android:gravity="center_vertical" android:padding="10dp"><ImageView android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/ic_launcher"/><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="ON Core Lite" android:textSize="24sp" android:textColor="#FFFFFF"/></LinearLayout>
+ <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+  <TextView android:id="@+id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="10dp" android:text="Your ON Account on classic Android." android:textColor="#555555"/>
+  <LinearLayout android:id="@+id/login_form" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/lite_card">
+   <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign in" android:textSize="22sp" android:textColor="#68558E"/>
+   <EditText android:id="@+id/login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Username, email or ON ID" android:singleLine="true" android:inputType="textEmailAddress"/>
+   <EditText android:id="@+id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="textPassword" android:singleLine="true" android:saveEnabled="false"/>
+   <Button android:id="@+id/sign_in" style="@style/LiteButton" android:text="Sign in"/>
+   <Button android:id="@+id/recovery" style="@style/LiteButton" android:text="Recover account"/>
+   <Button android:id="@+id/join" style="@style/LiteButton" android:text="Create an account"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/account_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/lite_card" android:visibility="gone">
+   <ImageView android:id="@+id/avatar" android:layout_width="64dp" android:layout_height="64dp" android:layout_gravity="center_horizontal" android:scaleType="fitCenter"/><TextView android:id="@+id/profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="22sp" android:textColor="#68558E"/>
+   <Button android:id="@+id/store" style="@style/LiteButton" android:text="Open ON Store Lite"/>
+   <Button android:id="@+id/sessions" style="@style/LiteButton" android:text="Services and sessions"/>
+   <Button android:id="@+id/sign_out" style="@style/LiteButton" android:text="Sign out"/>
+  </LinearLayout>
+  <Button android:id="@+id/help" style="@style/LiteButton" android:text="Account help"/>
+ </LinearLayout>
+</LinearLayout></ScrollView>
