@@ -1,8 +1,25 @@
+<p align="center">
+  <img src="docs/branding/app-icon.png" width="96" alt="Application icon">
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/branding/oldschool-network-dark.svg">
+    <img src="docs/branding/oldschool-network-light.svg" width="200" alt="Oldschool Network">
+  </picture>
+</p>
+
 # ON Core Services Lite
 
 Native ON Account sign-in, registration, recovery, linked profiles and session management for legacy Android. Store Lite uses a signature-protected account bridge; credentials are not exposed to third-party applications.
 
 Current alpha: **0.2**, version code **2**. Android **2.2 / API 8** or later. Intended for legacy devices; use the regular ON editions on current Android.
+
+## Screenshots
+
+<p>
+  <img src="docs/screenshots/sign-in.png" width="240" alt="ON Core Lite sign-in">
+  <img src="docs/screenshots/recovery.png" width="240" alt="Account recovery">
+</p>
 
 ## Design and compatibility
 
